@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058E19361DCB18C1008353D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19351DCB18C1008353D1 /* main.m */; };
+		058E19391DCB18C1008353D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19381DCB18C1008353D1 /* AppDelegate.m */; };
+		058E193C1DCB18C1008353D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E193B1DCB18C1008353D1 /* ViewController.m */; };
+		058E193F1DCB18C1008353D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058E193D1DCB18C1008353D1 /* Main.storyboard */; };
+		058E19411DCB18C1008353D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058E19401DCB18C1008353D1 /* Assets.xcassets */; };
+		058E19441DCB18C1008353D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058E19421DCB18C1008353D1 /* LaunchScreen.storyboard */; };
+		058E194F1DCB18C1008353D1 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E194E1DCB18C1008353D1 /* _____Tests.m */; };
+		058E195A1DCB18C1008353D1 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19591DCB18C1008353D1 /* _____UITests.m */; };
+		058E196A1DCB18EF008353D1 /* Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19691DCB18EF008353D1 /* Lunar.m */; };
+		058E196D1DCB191B008353D1 /* Solar.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E196C1DCB191B008353D1 /* Solar.m */; };
+		058E19701DCB1932008353D1 /* LunarSolarTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E196F1DCB1932008353D1 /* LunarSolarTransform.m */; };
+		058E19731DCB1B1D008353D1 /* CalendarDisplyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19721DCB1B1D008353D1 /* CalendarDisplyManager.m */; };
+		058E199A1DCB2755008353D1 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19781DCB2755008353D1 /* IQNSArray+Sort.m */; };
+		058E199B1DCB2755008353D1 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E197A1DCB2755008353D1 /* IQUIScrollView+Additions.m */; };
+		058E199C1DCB2755008353D1 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E197C1DCB2755008353D1 /* IQUITextFieldView+Additions.m */; };
+		058E199D1DCB2755008353D1 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E197E1DCB2755008353D1 /* IQUIView+Hierarchy.m */; };
+		058E199E1DCB2755008353D1 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19801DCB2755008353D1 /* IQUIViewController+Additions.m */; };
+		058E199F1DCB2755008353D1 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19821DCB2755008353D1 /* IQUIWindow+Hierarchy.m */; };
+		058E19A01DCB2755008353D1 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19871DCB2755008353D1 /* IQKeyboardManager.m */; };
+		058E19A11DCB2755008353D1 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19891DCB2755008353D1 /* IQKeyboardReturnKeyHandler.m */; };
+		058E19A21DCB2755008353D1 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E198C1DCB2755008353D1 /* IQTextView.m */; };
+		058E19A31DCB2755008353D1 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E198F1DCB2755008353D1 /* IQBarButtonItem.m */; };
+		058E19A41DCB2755008353D1 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19911DCB2755008353D1 /* IQPreviousNextView.m */; };
+		058E19A51DCB2755008353D1 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19931DCB2755008353D1 /* IQTitleBarButtonItem.m */; };
+		058E19A61DCB2755008353D1 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19951DCB2755008353D1 /* IQToolbar.m */; };
+		058E19A71DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 058E19971DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.m */; };
+		058E19A81DCB2755008353D1 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 058E19991DCB2755008353D1 /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058E194B1DCB18C1008353D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058E19291DCB18C1008353D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058E19301DCB18C1008353D1;
+			remoteInfo = "阳历转阴历";
+		};
+		058E19561DCB18C1008353D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058E19291DCB18C1008353D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058E19301DCB18C1008353D1;
+			remoteInfo = "阳历转阴历";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058E19311DCB18C1008353D1 /* 阳历转阴历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "阳历转阴历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058E19351DCB18C1008353D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		058E19371DCB18C1008353D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		058E19381DCB18C1008353D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		058E193A1DCB18C1008353D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		058E193B1DCB18C1008353D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		058E193E1DCB18C1008353D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058E19401DCB18C1008353D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058E19431DCB18C1008353D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058E19451DCB18C1008353D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058E194A1DCB18C1008353D1 /* 阳历转阴历Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "阳历转阴历Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058E194E1DCB18C1008353D1 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		058E19501DCB18C1008353D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058E19551DCB18C1008353D1 /* 阳历转阴历UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "阳历转阴历UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058E19591DCB18C1008353D1 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		058E195B1DCB18C1008353D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058E19681DCB18EF008353D1 /* Lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lunar.h; sourceTree = "<group>"; };
+		058E19691DCB18EF008353D1 /* Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lunar.m; sourceTree = "<group>"; };
+		058E196B1DCB191B008353D1 /* Solar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solar.h; sourceTree = "<group>"; };
+		058E196C1DCB191B008353D1 /* Solar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solar.m; sourceTree = "<group>"; };
+		058E196E1DCB1932008353D1 /* LunarSolarTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarSolarTransform.h; sourceTree = "<group>"; };
+		058E196F1DCB1932008353D1 /* LunarSolarTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarTransform.m; sourceTree = "<group>"; };
+		058E19711DCB1B1D008353D1 /* CalendarDisplyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDisplyManager.h; sourceTree = "<group>"; };
+		058E19721DCB1B1D008353D1 /* CalendarDisplyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDisplyManager.m; sourceTree = "<group>"; };
+		058E19741DCB1C90008353D1 /* CalendarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarHeader.h; sourceTree = "<group>"; };
+		058E19771DCB2755008353D1 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		058E19781DCB2755008353D1 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		058E19791DCB2755008353D1 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		058E197A1DCB2755008353D1 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		058E197B1DCB2755008353D1 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		058E197C1DCB2755008353D1 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		058E197D1DCB2755008353D1 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		058E197E1DCB2755008353D1 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		058E197F1DCB2755008353D1 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		058E19801DCB2755008353D1 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		058E19811DCB2755008353D1 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		058E19821DCB2755008353D1 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		058E19841DCB2755008353D1 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		058E19851DCB2755008353D1 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		058E19861DCB2755008353D1 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		058E19871DCB2755008353D1 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		058E19881DCB2755008353D1 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		058E19891DCB2755008353D1 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		058E198B1DCB2755008353D1 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		058E198C1DCB2755008353D1 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		058E198E1DCB2755008353D1 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		058E198F1DCB2755008353D1 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		058E19901DCB2755008353D1 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		058E19911DCB2755008353D1 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		058E19921DCB2755008353D1 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		058E19931DCB2755008353D1 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		058E19941DCB2755008353D1 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		058E19951DCB2755008353D1 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		058E19961DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		058E19971DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		058E19991DCB2755008353D1 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058E192E1DCB18C1008353D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058E19471DCB18C1008353D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058E19521DCB18C1008353D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058E19281DCB18C1008353D1 = {
+			isa = PBXGroup;
+			children = (
+				058E19331DCB18C1008353D1 /* 阳历转阴历 */,
+				058E194D1DCB18C1008353D1 /* 阳历转阴历Tests */,
+				058E19581DCB18C1008353D1 /* 阳历转阴历UITests */,
+				058E19321DCB18C1008353D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058E19321DCB18C1008353D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058E19311DCB18C1008353D1 /* 阳历转阴历.app */,
+				058E194A1DCB18C1008353D1 /* 阳历转阴历Tests.xctest */,
+				058E19551DCB18C1008353D1 /* 阳历转阴历UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058E19331DCB18C1008353D1 /* 阳历转阴历 */ = {
+			isa = PBXGroup;
+			children = (
+				058E19671DCB18D0008353D1 /* Core */,
+				058E19371DCB18C1008353D1 /* AppDelegate.h */,
+				058E19381DCB18C1008353D1 /* AppDelegate.m */,
+				058E193A1DCB18C1008353D1 /* ViewController.h */,
+				058E193B1DCB18C1008353D1 /* ViewController.m */,
+				058E193D1DCB18C1008353D1 /* Main.storyboard */,
+				058E19401DCB18C1008353D1 /* Assets.xcassets */,
+				058E19421DCB18C1008353D1 /* LaunchScreen.storyboard */,
+				058E19451DCB18C1008353D1 /* Info.plist */,
+				058E19341DCB18C1008353D1 /* Supporting Files */,
+			);
+			path = "阳历转阴历";
+			sourceTree = "<group>";
+		};
+		058E19341DCB18C1008353D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				058E19751DCB2755008353D1 /* IQKeyboardManager */,
+				058E19351DCB18C1008353D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		058E194D1DCB18C1008353D1 /* 阳历转阴历Tests */ = {
+			isa = PBXGroup;
+			children = (
+				058E194E1DCB18C1008353D1 /* _____Tests.m */,
+				058E19501DCB18C1008353D1 /* Info.plist */,
+			);
+			path = "阳历转阴历Tests";
+			sourceTree = "<group>";
+		};
+		058E19581DCB18C1008353D1 /* 阳历转阴历UITests */ = {
+			isa = PBXGroup;
+			children = (
+				058E19591DCB18C1008353D1 /* _____UITests.m */,
+				058E195B1DCB18C1008353D1 /* Info.plist */,
+			);
+			path = "阳历转阴历UITests";
+			sourceTree = "<group>";
+		};
+		058E19671DCB18D0008353D1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				058E19681DCB18EF008353D1 /* Lunar.h */,
+				058E19691DCB18EF008353D1 /* Lunar.m */,
+				058E196B1DCB191B008353D1 /* Solar.h */,
+				058E196C1DCB191B008353D1 /* Solar.m */,
+				058E196E1DCB1932008353D1 /* LunarSolarTransform.h */,
+				058E196F1DCB1932008353D1 /* LunarSolarTransform.m */,
+				058E19711DCB1B1D008353D1 /* CalendarDisplyManager.h */,
+				058E19721DCB1B1D008353D1 /* CalendarDisplyManager.m */,
+				058E19741DCB1C90008353D1 /* CalendarHeader.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		058E19751DCB2755008353D1 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				058E19761DCB2755008353D1 /* Categories */,
+				058E19831DCB2755008353D1 /* Constants */,
+				058E19861DCB2755008353D1 /* IQKeyboardManager.h */,
+				058E19871DCB2755008353D1 /* IQKeyboardManager.m */,
+				058E19881DCB2755008353D1 /* IQKeyboardReturnKeyHandler.h */,
+				058E19891DCB2755008353D1 /* IQKeyboardReturnKeyHandler.m */,
+				058E198A1DCB2755008353D1 /* IQTextView */,
+				058E198D1DCB2755008353D1 /* IQToolbar */,
+				058E19981DCB2755008353D1 /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		058E19761DCB2755008353D1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				058E19771DCB2755008353D1 /* IQNSArray+Sort.h */,
+				058E19781DCB2755008353D1 /* IQNSArray+Sort.m */,
+				058E19791DCB2755008353D1 /* IQUIScrollView+Additions.h */,
+				058E197A1DCB2755008353D1 /* IQUIScrollView+Additions.m */,
+				058E197B1DCB2755008353D1 /* IQUITextFieldView+Additions.h */,
+				058E197C1DCB2755008353D1 /* IQUITextFieldView+Additions.m */,
+				058E197D1DCB2755008353D1 /* IQUIView+Hierarchy.h */,
+				058E197E1DCB2755008353D1 /* IQUIView+Hierarchy.m */,
+				058E197F1DCB2755008353D1 /* IQUIViewController+Additions.h */,
+				058E19801DCB2755008353D1 /* IQUIViewController+Additions.m */,
+				058E19811DCB2755008353D1 /* IQUIWindow+Hierarchy.h */,
+				058E19821DCB2755008353D1 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		058E19831DCB2755008353D1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				058E19841DCB2755008353D1 /* IQKeyboardManagerConstants.h */,
+				058E19851DCB2755008353D1 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		058E198A1DCB2755008353D1 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				058E198B1DCB2755008353D1 /* IQTextView.h */,
+				058E198C1DCB2755008353D1 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		058E198D1DCB2755008353D1 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				058E198E1DCB2755008353D1 /* IQBarButtonItem.h */,
+				058E198F1DCB2755008353D1 /* IQBarButtonItem.m */,
+				058E19901DCB2755008353D1 /* IQPreviousNextView.h */,
+				058E19911DCB2755008353D1 /* IQPreviousNextView.m */,
+				058E19921DCB2755008353D1 /* IQTitleBarButtonItem.h */,
+				058E19931DCB2755008353D1 /* IQTitleBarButtonItem.m */,
+				058E19941DCB2755008353D1 /* IQToolbar.h */,
+				058E19951DCB2755008353D1 /* IQToolbar.m */,
+				058E19961DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.h */,
+				058E19971DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		058E19981DCB2755008353D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				058E19991DCB2755008353D1 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058E19301DCB18C1008353D1 /* 阳历转阴历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058E195E1DCB18C1008353D1 /* Build configuration list for PBXNativeTarget "阳历转阴历" */;
+			buildPhases = (
+				058E192D1DCB18C1008353D1 /* Sources */,
+				058E192E1DCB18C1008353D1 /* Frameworks */,
+				058E192F1DCB18C1008353D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "阳历转阴历";
+			productName = "阳历转阴历";
+			productReference = 058E19311DCB18C1008353D1 /* 阳历转阴历.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058E19491DCB18C1008353D1 /* 阳历转阴历Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058E19611DCB18C1008353D1 /* Build configuration list for PBXNativeTarget "阳历转阴历Tests" */;
+			buildPhases = (
+				058E19461DCB18C1008353D1 /* Sources */,
+				058E19471DCB18C1008353D1 /* Frameworks */,
+				058E19481DCB18C1008353D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058E194C1DCB18C1008353D1 /* PBXTargetDependency */,
+			);
+			name = "阳历转阴历Tests";
+			productName = "阳历转阴历Tests";
+			productReference = 058E194A1DCB18C1008353D1 /* 阳历转阴历Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058E19541DCB18C1008353D1 /* 阳历转阴历UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058E19641DCB18C1008353D1 /* Build configuration list for PBXNativeTarget "阳历转阴历UITests" */;
+			buildPhases = (
+				058E19511DCB18C1008353D1 /* Sources */,
+				058E19521DCB18C1008353D1 /* Frameworks */,
+				058E19531DCB18C1008353D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058E19571DCB18C1008353D1 /* PBXTargetDependency */,
+			);
+			name = "阳历转阴历UITests";
+			productName = "阳历转阴历UITests";
+			productReference = 058E19551DCB18C1008353D1 /* 阳历转阴历UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058E19291DCB18C1008353D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "孙云飞";
+				TargetAttributes = {
+					058E19301DCB18C1008353D1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7DBWPU265V;
+						ProvisioningStyle = Automatic;
+					};
+					058E19491DCB18C1008353D1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7DBWPU265V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058E19301DCB18C1008353D1;
+					};
+					058E19541DCB18C1008353D1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7DBWPU265V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058E19301DCB18C1008353D1;
+					};
+				};
+			};
+			buildConfigurationList = 058E192C1DCB18C1008353D1 /* Build configuration list for PBXProject "阳历转阴历" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058E19281DCB18C1008353D1;
+			productRefGroup = 058E19321DCB18C1008353D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058E19301DCB18C1008353D1 /* 阳历转阴历 */,
+				058E19491DCB18C1008353D1 /* 阳历转阴历Tests */,
+				058E19541DCB18C1008353D1 /* 阳历转阴历UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058E192F1DCB18C1008353D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058E19441DCB18C1008353D1 /* LaunchScreen.storyboard in Resources */,
+				058E19411DCB18C1008353D1 /* Assets.xcassets in Resources */,
+				058E19A81DCB2755008353D1 /* IQKeyboardManager.bundle in Resources */,
+				058E193F1DCB18C1008353D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058E19481DCB18C1008353D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058E19531DCB18C1008353D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058E192D1DCB18C1008353D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058E199A1DCB2755008353D1 /* IQNSArray+Sort.m in Sources */,
+				058E19A31DCB2755008353D1 /* IQBarButtonItem.m in Sources */,
+				058E19A51DCB2755008353D1 /* IQTitleBarButtonItem.m in Sources */,
+				058E19A21DCB2755008353D1 /* IQTextView.m in Sources */,
+				058E199B1DCB2755008353D1 /* IQUIScrollView+Additions.m in Sources */,
+				058E199F1DCB2755008353D1 /* IQUIWindow+Hierarchy.m in Sources */,
+				058E196D1DCB191B008353D1 /* Solar.m in Sources */,
+				058E199D1DCB2755008353D1 /* IQUIView+Hierarchy.m in Sources */,
+				058E19731DCB1B1D008353D1 /* CalendarDisplyManager.m in Sources */,
+				058E19A41DCB2755008353D1 /* IQPreviousNextView.m in Sources */,
+				058E19A71DCB2755008353D1 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				058E199C1DCB2755008353D1 /* IQUITextFieldView+Additions.m in Sources */,
+				058E196A1DCB18EF008353D1 /* Lunar.m in Sources */,
+				058E19A01DCB2755008353D1 /* IQKeyboardManager.m in Sources */,
+				058E193C1DCB18C1008353D1 /* ViewController.m in Sources */,
+				058E19A11DCB2755008353D1 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				058E19A61DCB2755008353D1 /* IQToolbar.m in Sources */,
+				058E19701DCB1932008353D1 /* LunarSolarTransform.m in Sources */,
+				058E19391DCB18C1008353D1 /* AppDelegate.m in Sources */,
+				058E199E1DCB2755008353D1 /* IQUIViewController+Additions.m in Sources */,
+				058E19361DCB18C1008353D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058E19461DCB18C1008353D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058E194F1DCB18C1008353D1 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058E19511DCB18C1008353D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058E195A1DCB18C1008353D1 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058E194C1DCB18C1008353D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058E19301DCB18C1008353D1 /* 阳历转阴历 */;
+			targetProxy = 058E194B1DCB18C1008353D1 /* PBXContainerItemProxy */;
+		};
+		058E19571DCB18C1008353D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058E19301DCB18C1008353D1 /* 阳历转阴历 */;
+			targetProxy = 058E19561DCB18C1008353D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058E193D1DCB18C1008353D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058E193E1DCB18C1008353D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058E19421DCB18C1008353D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058E19431DCB18C1008353D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058E195C1DCB18C1008353D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		058E195D1DCB18C1008353D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058E195F1DCB18C1008353D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DBWPU265V;
+				INFOPLIST_FILE = "阳历转阴历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		058E19601DCB18C1008353D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DBWPU265V;
+				INFOPLIST_FILE = "阳历转阴历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		058E19621DCB18C1008353D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DBWPU265V;
+				INFOPLIST_FILE = "阳历转阴历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/阳历转阴历.app/阳历转阴历";
+			};
+			name = Debug;
+		};
+		058E19631DCB18C1008353D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DBWPU265V;
+				INFOPLIST_FILE = "阳历转阴历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/阳历转阴历.app/阳历转阴历";
+			};
+			name = Release;
+		};
+		058E19651DCB18C1008353D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DBWPU265V;
+				INFOPLIST_FILE = "阳历转阴历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "阳历转阴历";
+			};
+			name = Debug;
+		};
+		058E19661DCB18C1008353D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DBWPU265V;
+				INFOPLIST_FILE = "阳历转阴历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haidai.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "阳历转阴历";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058E192C1DCB18C1008353D1 /* Build configuration list for PBXProject "阳历转阴历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058E195C1DCB18C1008353D1 /* Debug */,
+				058E195D1DCB18C1008353D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058E195E1DCB18C1008353D1 /* Build configuration list for PBXNativeTarget "阳历转阴历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058E195F1DCB18C1008353D1 /* Debug */,
+				058E19601DCB18C1008353D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		058E19611DCB18C1008353D1 /* Build configuration list for PBXNativeTarget "阳历转阴历Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058E19621DCB18C1008353D1 /* Debug */,
+				058E19631DCB18C1008353D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		058E19641DCB18C1008353D1 /* Build configuration list for PBXNativeTarget "阳历转阴历UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058E19651DCB18C1008353D1 /* Debug */,
+				058E19661DCB18C1008353D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058E19291DCB18C1008353D1 /* Project object */;
+}
